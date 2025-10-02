@@ -13,7 +13,7 @@ import { IconDotsVertical, IconEdit, IconTrash } from "@tabler/icons-react";
 import { format } from "date-fns";
 import Link from "next/link";
 
-export const getColumns = (filters, handleFilterChange, onEdit, onDelete) => [
+export const getColumns = (filters, handleFilterChange, onDelete) => [
   {
     accessorKey: "invoice_number",
     header: () => (
